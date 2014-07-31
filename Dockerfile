@@ -5,7 +5,8 @@
 #
 
 # Pull base image.
-FROM dockerfile/python
+FROM ubuntu
+MAINTAINER veeru "cheftestn@gmail.com"
 
 # Install Node.js
 RUN \
